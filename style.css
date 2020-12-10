@@ -1,0 +1,88 @@
+body {
+	background-color:#16697A;
+	color: 1f6f8b;
+	font-family: lora;
+	font-size:19px;
+	font-weight: lighter;
+}
+
+h1,h2,h3 {
+font-family: roboto;
+}
+h1 {
+	color: 000000;
+	font-size: 34px;
+	font-family :"lato", sans-serif;
+	font-weight:bold;
+	letter-spacing: 5px
+	font-size: 30px;
+ 
+}
+h2{
+	color: #52057B;
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: "lato", sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #E05297;
+	font-weight: bold;
+	font-size: 15px;
+}
+a:hover {
+	color: #E11D74;
+
+
+}
+
+/* Custom design with class (99ù of your design) */
+.container{
+	width: 700px;
+	margin:40px auto ;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+.card-white {
+	background: rgb(245,245,245);
+	padding: 50px;
+	margin :20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5PX;
+	text-align: center;
+}
+.img.circle{
+	border-radius: 50px;
+}
+
+.btn-pink{
+	background-color: #EB8F8F;
+	color:white;
+	padding: 15px 20px 
+	border-radius 5px;
+}
+.btn-pink{
+	background-color:#E11D74;
+	color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+}
+/*design adjustement using id (1% of design remaining) */
+#introduction p {
+	margin-bottom: 30px;
+}
